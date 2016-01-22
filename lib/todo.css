@@ -1,0 +1,22 @@
+body {
+	  background-color: #BDB76B;
+     }
+h1   {
+		color: SaddleBrown;
+		background-color: white;
+		font-size: 35px;
+     }
+
+form {
+    display: inline-block;
+}
+
+}
+#todo {
+    margin: 0 auto;
+    width: 500px;
+}
+
+a.close {
+  float: right;
+}
