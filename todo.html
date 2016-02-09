@@ -1,28 +1,21 @@
 <html>
-
-<head>
-
-<title>To Do List</title>
-<center>
-<link rel="stylesheet" href="lib/todo.js" />
-<link rel="stylesheet" href="lib/todo.css" />
-<h1>TO DO LIST</h1>
-</head>
-
-<body background="lib/image.jpg">
-
-<form id="todo-form">
-                    
-<input type="text" placeholder="Title" />
-<br>                    
-<textarea placeholder="Details"></textarea><br>
-                    
-<textarea placeholder="Date"></textarea><br>         
-<input type="button" class="btn btn-primary" value="Add Task" onclick="todo.add();" />
-                
-</form>
-
-
-
-</body>
+	<head>
+		<title>To Do List</title>
+		<link type="text/css" rel="stylesheet" href="lib/todo.css">
+	</head>
+	
+	<body>
+        <h1>TASKS TO DO</h1>
+        <div class="tion">
+            <br>This is a to do list that includes your everyday tasks. It is a perfect guide that makes sure you have all you need to know about your day intact. This list has a specific way in which it works, Whenever you're done with your tasks and you tick each of the that you are done with, the ticked task would be striked but would not be removed except you reload your webpage.
+        </div>
+        <br>
+        <div class="cont">
+        <p><input type="text" id="inItemText"/></p>
+        </div>
+        <div class="tain">
+			<ul id="todolist"></ul>
+        </div>
+		<script src="lib/todo.js"></script>
+	</body>
 </html>
